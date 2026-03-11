@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>Scene 1 - Intro Cinematique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="phone-stage" aria-label="Intro video verticale">
+        <div class="scene-root">
+          <div class="scene-universe" aria-hidden="true">
+            <div class="universe-gradient"></div>
+            <div class="universe-aurora"></div>
+            <div class="particles"></div>
+            <div class="grain"></div>
+          </div>
+
+          <div class="scene-viewport">
+            <div class="word-lane" aria-live="off">
+              <h1 class="word word-create">
+                <span class="letter">C</span>
+                <span class="letter">R</span>
+                <span class="letter">&Eacute;</span>
+                <span class="letter">E</span>
+                <span class="letter">R</span>
+              </h1>
+              <h2 class="word word-captiver">CAPTIVER</h2>
+              <h2 class="word word-elever">&Eacute;LEVER</h2>
+              <h2 class="word word-mesurer">MESURER</h2>
+              <h2 class="word word-marquer">MARQUER</h2>
+              <h2 class="word word-transformer">TRANSFORMER</h2>
+            </div>
+
+            <div class="water-transition" aria-hidden="true">
+              <div class="ripple-core"></div>
+              <div class="ripple-ring ripple-ring-a"></div>
+              <div class="ripple-ring ripple-ring-b"></div>
+              <div class="white-flood"></div>
+            </div>
+          </div>
+
+          <div class="interface-layer">
+            <div class="interface-flat interface-zero">
+              <header class="interface-nav">
+                <button class="ui-icon ui-hamburger" type="button" aria-label="Menu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </button>
+                <button class="ui-icon ui-search" type="button" aria-label="Recherche">
+                  <span class="ui-search-circle"></span>
+                  <span class="ui-search-handle"></span>
+                </button>
+              </header>
+
+              <section class="hero-media" aria-label="Hero final">
+                <div
+                  class="hero-image"
+                  role="img"
+                  aria-label="Visuel hero premium pour une interface web moderne"
+                ></div>
+
+                <p class="hero-subtitle">
+                  Des interfaces propres, immersives et pensees pour faire forte
+                  impression des le premier regard.
+                </p>
+              </section>
+
+              <div class="home-indicator" aria-hidden="true"></div>
+            </div>
+
+            <article class="interface-next" aria-hidden="true">
+              <header class="shop-nav shop-nav-fixed">
+                <button class="shop-icon shop-burger" type="button" aria-label="Menu">
+                  <i class="fa-solid fa-bars-staggered" aria-hidden="true"></i>
+                </button>
+                <button class="shop-icon shop-bag" type="button" aria-label="Panier">
+                  <i class="fa-solid fa-bag-shopping" aria-hidden="true"></i>
+                </button>
+              </header>
+
+              <div class="interface-next-scroll">
+                <section class="shop-hero" aria-label="Hero e-commerce premium">
+                  <div
+                    class="shop-hero-visual"
+                    role="img"
+                    aria-label="Visuel produit premium editorial"
+                  >
+                    <span class="shop-hero-glow"></span>
+                    <span class="shop-hero-product"></span>
+                  </div>
+                </section>
+
+                <section class="shop-carousel" aria-label="Selection visuelle">
+                  <article class="shop-carousel-card shop-carousel-card-a"></article>
+                  <article class="shop-carousel-card shop-carousel-card-b"></article>
+                  <article class="shop-carousel-card shop-carousel-card-c"></article>
+                </section>
+
+                <section class="shop-lookbook" aria-label="Lookbook">
+                  <div class="shop-lookbook-tile shop-lookbook-tile-a"></div>
+                  <div class="shop-lookbook-tile shop-lookbook-tile-b"></div>
+                </section>
+              </div>
+            </article>
+
+            <article class="interface-third" aria-hidden="true">
+              <header class="uni-nav-fixed">
+                <button class="uni-icon uni-orbit" type="button" aria-label="Navigation">
+                  <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+                </button>
+                <button class="uni-icon uni-bookmark" type="button" aria-label="Favoris">
+                  <i class="fa-solid fa-building-columns" aria-hidden="true"></i>
+                </button>
+              </header>
+
+              <div class="interface-third-scroll">
+                <section class="uni-hero" aria-label="Hero universite premium">
+                  <div class="uni-visual" role="img" aria-label="Campus universitaire premium">
+                    <span class="uni-visual-glow"></span>
+                    <span class="uni-visual-arch"></span>
+                    <span class="uni-visual-column uni-visual-column-a"></span>
+                    <span class="uni-visual-column uni-visual-column-b"></span>
+                    <span class="uni-visual-column uni-visual-column-c"></span>
+                    <span class="uni-visual-card"></span>
+                  </div>
+                </section>
+
+                <section class="uni-carousel" aria-label="Campus et programmes">
+                  <article class="uni-carousel-card uni-carousel-card-a"></article>
+                  <article class="uni-carousel-card uni-carousel-card-b"></article>
+                  <article class="uni-carousel-card uni-carousel-card-c"></article>
+                </section>
+
+                <section class="uni-impact" aria-label="Impact institutionnel">
+                  <article>
+                    <strong>38k</strong>
+                    <span>Etudiants</span>
+                  </article>
+                  <article>
+                    <strong>120+</strong>
+                    <span>Programmes</span>
+                  </article>
+                  <article>
+                    <strong>94%</strong>
+                    <span>Insertion</span>
+                  </article>
+                </section>
+
+                <section class="uni-gallery" aria-label="Vie de campus">
+                  <div class="uni-gallery-tile uni-gallery-tile-a"></div>
+                  <div class="uni-gallery-tile uni-gallery-tile-b"></div>
+                </section>
+              </div>
+            </article>
+
+            <section class="interface-four" aria-hidden="true">
+              <header class="saas-final-nav">
+                <button class="saas-final-icon saas-final-pulse" type="button" aria-label="Menu">
+                  <i class="fa-solid fa-wave-square" aria-hidden="true"></i>
+                </button>
+                <button class="saas-final-icon saas-final-utility" type="button" aria-label="Tableau de bord">
+                  <i class="fa-solid fa-table-cells-large" aria-hidden="true"></i>
+                </button>
+              </header>
+
+              <div class="interface-four-scroll">
+                <section class="saas-final-hero" aria-label="Hero SaaS premium">
+                  <div class="saas-final-dashboard" role="img" aria-label="Dashboard produit premium">
+                    <span class="saas-final-dashboard-glow"></span>
+
+                    <article class="saas-final-panel saas-final-panel-main">
+                      <span class="saas-final-panel-label">Projection</span>
+                      <strong>82.4</strong>
+                      <div class="saas-final-spark">
+                        <span class="saas-final-spark-bar saas-final-spark-bar-a"></span>
+                        <span class="saas-final-spark-bar saas-final-spark-bar-b"></span>
+                        <span class="saas-final-spark-bar saas-final-spark-bar-c"></span>
+                        <span class="saas-final-spark-bar saas-final-spark-bar-d"></span>
+                      </div>
+                    </article>
+
+                    <article class="saas-final-panel saas-final-panel-side">
+                      <span class="saas-final-panel-label">Croissance</span>
+                      <span class="saas-final-ring"></span>
+                      <span class="saas-final-panel-meta">+18% trimestre</span>
+                    </article>
+
+                    <article class="saas-final-panel saas-final-panel-bottom">
+                      <span class="saas-final-panel-label">Signaux</span>
+                      <div class="saas-final-dot-row">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </article>
+                  </div>
+                </section>
+
+                <section class="saas-final-carousel" aria-label="Vues produit">
+                  <article class="saas-final-preview saas-final-preview-a"></article>
+                  <article class="saas-final-preview saas-final-preview-b"></article>
+                  <article class="saas-final-preview saas-final-preview-c"></article>
+                </section>
+
+                <section class="saas-final-analytics" aria-label="Analytics">
+                  <div class="saas-final-kpi-grid">
+                    <article>
+                      <strong>3.4x</strong>
+                      <span>Sante pipeline</span>
+                    </article>
+                    <article>
+                      <strong>94</strong>
+                      <span>Score equipe</span>
+                    </article>
+                    <article>
+                      <strong>18m</strong>
+                      <span>Vitesse de traitement</span>
+                    </article>
+                  </div>
+
+                  <div class="saas-final-graph-card">
+                    <span class="saas-final-panel-label">Signal de performance</span>
+                    <div class="saas-final-line">
+                      <span class="saas-final-line-segment saas-final-line-segment-a"></span>
+                      <span class="saas-final-line-segment saas-final-line-segment-b"></span>
+                      <span class="saas-final-line-segment saas-final-line-segment-c"></span>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="saas-final-trust" aria-label="Trust">
+                  <div class="saas-final-logo-row">
+                    <span>Nexa</span>
+                    <span>Ledger</span>
+                    <span>North</span>
+                  </div>
+                  <div class="saas-final-mini-strip">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </section>
+              </div>
+            </section>
+
+            <section class="final-cta" aria-hidden="true">
+              <div class="final-cta-sheet"></div>
+
+              <div class="final-cta-content">
+                <p
+                  class="final-cta-copy"
+                  aria-label="Pour les entreprises qui veulent se démarquer"
+                >
+                  <span class="final-cta-copy-line">Pour les entreprises</span>
+                  <span class="final-cta-copy-line">qui veulent se démarquer</span>
+                </p>
+
+                <button class="final-cta-button" type="button">
+                  <span class="final-cta-button-ripple" aria-hidden="true"></span>
+                  <span class="final-cta-button-label">Contactez-nous</span>
+                </button>
+              </div>
+
+              <div class="final-cursor" aria-hidden="true">
+                <span class="final-cursor-state final-cursor-drag">
+                  <span class="final-cursor-drag-pill">
+                    <i class="fa-solid fa-hand-pointer" aria-hidden="true"></i>
+                  </span>
+                </span>
+
+                <span class="final-cursor-state final-cursor-click">
+                  <span class="final-cursor-click-disc"></span>
+                  <i class="fa-solid fa-arrow-pointer final-cursor-click-arrow" aria-hidden="true"></i>
+                </span>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
